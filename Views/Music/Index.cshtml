@@ -1,0 +1,11 @@
+﻿@model RobertMarshOfficialWebsite.Models.DBModels.Music 
+
+<div class="music-content-left">
+    <h3 class="music-header">@Model.Title</h3>
+    <p class="music-description">@Model.Description</p>
+</div>
+<div class="music-content-right">
+    <iframe class="soundcloud-player" scrolling="no" frameborder="no" src="@Model.Location"></iframe>
+</div>
+@*<iframe align="right" width="50%" height="750px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/7753071&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>*@
+
